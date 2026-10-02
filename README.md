@@ -1,2 +1,2 @@
-# SA_ICT9SRuby-Q1Project-Bengco-Borg
+# SA_ICT9Ruby-Q1Project-Bengco-Borg
 EXPERIMENT
