@@ -1,0 +1,267 @@
+ <!DOCTYPE html>
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Project</title>
+    <style>
+        body {
+            background-color: #f4e5c2; 
+            font-family: 'Courier New', Courier, monospace;
+            color: #3e2723;
+            margin: 0;
+            padding: 20px;
+            background-image: url('223947.png');
+            background-size: cover;              
+            background-attachment: fixed;        
+            background-position: center;         
+
+        }
+        
+        header, section {
+            background-color: #eec39a; 
+            border: 6px solid #8d5524; 
+            border-radius: 8px;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 850px;
+            box-shadow: 4px 4px 0px #5c3a21;
+        }
+
+        h1, h2 {
+            color: #2e7d32;
+            text-align: center;
+            text-shadow: 2px 2px #a5d6a7;
+            text-transform: uppercase;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .navbar li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #f4e5c2;
+            background-color: #8d5524;
+            padding: 8px 15px;
+            border: 3px solid #5c3a21;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            background-color: #2e7d32;
+            border-color: #1b5e20;
+        }
+
+        .hero, .works-gallery {
+            text-align: center;
+        }
+
+        .pfp, .logo {
+            border: 4px solid #8d5524;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+
+        .work-item {
+            background-color: #d7b579;
+            border: 2px dashed #8d5524;
+            margin: 10px;
+            padding: 15px;
+            display: inline-block;
+            width: 40%;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .highlight {
+            color: #d32f2f;
+            font-weight: bold;
+            background-color: #ffc107;
+            padding: 0 4px;
+        }
+
+        .form-container {
+            background-color: #d7b579;
+            padding: 20px;
+            border: 4px solid #8d5524;
+        }
+
+        input[type="text"], input[type="email"], select, textarea {
+            width: 90%;
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            border: 2px solid #8d5524;
+            background-color: #fff8e1;
+            font-family: inherit;
+        }
+
+        button[type="submit"] {
+            background-color: #4caf50;
+            color: white;
+            border: 3px solid #1b5e20;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-family: inherit;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 2px 2px 0px #1b5e20;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #388e3c;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img src="https://stardewvalleywiki.com/mediawiki/images/5/57/Junimo.gif" alt="Dancing Junimo" width="50" height="50">
+            <ul class="navlinks">
+                <li><a href="#about">Player Info</a></li>
+                <li><a href="#works">Inventory</a></li>
+                <li><a href="#contact">Send Mail</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="about"> 
+        <img src="WIN_20260921_00_12_25_Pro.jpg" alt="Borg's Profile Picture" class="pfp" width="200" height="150 ">
+       <h1 style="text-align: center; color: #2e7d32;">
+        <img src="https://stardewvalleywiki.com/mediawiki/images/a/a5/Stardrop.png" alt="Stardrop" style="vertical-align: middle; width: 45px;">   
+        HI, I'M BORG!
+        <img src="https://stardewvalleywiki.com/mediawiki/images/a/a5/Stardrop.png" alt="Stardrop" style="vertical-align: middle; width: 45px;">
+        </h1>
+        <p>A student navigating the <span class="highlight">quests of technology</span> and web development.</p>
+        <hr>
+        <p>        Welcome to my farm- I mean, portfolio! I am currently learning about web development (HTML, CSS, and JavaScript), but other than that, I also enjoy writing fanfics, perfecting my Peanut Chili Oil noodles recipe, and working on resolution papers for Model UN and ASEAN conferences. <br> <br> <b>Fun Fact:</b> I am a fan of the game Stardew Valley, which is why I have themed my portfolio after it!
+        </p>
+      
+        <img src="https://stardewvalleywiki.com/mediawiki/images/5/57/Junimo.gif" alt="Dancing Junimo" width="50" height="50">
+        <h2>Farmer Stats</h2>
+        <dl style="text-align: left; max-width: 300px; margin: 0 auto;">
+            <dt>
+        <img src="https://stardewvalleywiki.com/mediawiki/images/8/82/Farming_Skill_Icon.png" alt="Farming Icon" style="vertical-align: middle; margin-right: 15px; width: 45px;">
+        <b style="color: #2e7d32; font-size: 18px;">Farming (HTML)</b>
+         </dt>
+         <dd style="margin-left: 60px; margin-bottom: 15px;">- Level 9: Can structure full pages.</dd>
+            <dt>
+        <img src="https://stardewvalleywiki.com/mediawiki/images/f/f1/Foraging_Skill_Icon.png" alt="Foraging Icon" style="vertical-align: middle; margin-right: 15px; width: 45px;">
+        <b style="color: #2e7d32; font-size: 18px;">Foraging (CSS)</b>
+            </dt>
+            <dd style="margin-left: 60px; margin-bottom: 15px;">- Level 9: Good at hunting down styling bugs.</dd>
+            <dt>
+        <img src="https://stardewvalleywiki.com/mediawiki/images/c/cf/Combat_Skill_Icon.png" alt="Combat Icon" style="vertical-align: middle; margin-right: 15px; width: 45px;">
+        <b style="color: #2e7d32; font-size: 18px;">Combat (Debugging)</b>
+            </dt>
+    <dd style="margin-left: 60px; margin-bottom: 15px;">- Level 8: Successfully defeats syntax errors.</dd>
+           </dl>
+    </section>
+
+    <section id="works">
+        <h1>My Inventory (Works)</h1>
+        <div style="text-align: left; background-color: #d7b579; padding: 10px; border: 2px dashed #8d5524; margin-bottom: 20px;">
+            <h3>Current Quests:</h3>
+            <ol>
+                <li>Complete the ICT 9 Final Assessment.</li>
+                <li> Attempting to not crash out while coding this portfolio.</li>
+                <li>Studying for the First Quarterly Exams...</li>
+            </ol>
+        </div>
+
+        <div class="works-gallery">
+            <div class="work-item">
+                <h3>DLSMUN XII Repository</h3>
+                <ul>
+                    <li>Food and Agriculture Organization</li>
+                    <li>Fiji Delegation Position Paper</li>
+                    <li>Lists, Hyperlinks, Formatting</li>
+                    <li><a href="https://github.com/yourlink" target="_blank" style="color: #2e7d32; font-weight: bold;">View GitHub Repository</a></li>
+                </ul>
+            </div>
+
+            <div class="work-item">
+                <h3>ICT Digital Designs</h3>
+                <ul>
+                    <li>HTML Forms & UI Elements</li>
+                    <li>Canvas Graphics</li>
+                    <li>Image Tags & CSS Layouts</li>
+                    <li><a href="https://github.com/yourlink" target="_blank" style="color: #2e7d32; font-weight: bold;">View GitHub Repository</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Pelican Town Mail (Contact Me)</h2>
+        <div class="form-container">
+            <form>
+                <label for="name">Your Name (Farmer):</label><br>
+                <input type="text" id="name" name="name" placeholder="E.g., Robin, Linus" required>
+                <br>
+                
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="farmer@stardew.com" required>
+                <br><br>
+
+                <label>How did you discover my farm?</label><br>
+                <input type="radio" id="find1" name="source" value="Notice Board" required>
+                <label for="find1">Pierre's Notice Board</label><br>
+                <input type="radio" id="find2" name="source" value="JojaMart">
+                <label for="find2">JojaMart Ad</label><br>
+                <input type="radio" id="find3" name="source" value="Friends">
+                <label for="find3">The Saloon</label><br><br>
+
+                <label>Interested In Collaborating On:</label><br>
+                <input type="checkbox" id="int1" name="interest" value="Web Design">
+                <label for="int1">Web Design</label><br>
+                <input type="checkbox" id="int2" name="interest" value="Creative Writing">
+                <label for="int2">Story Writing / Podcasts</label><br>
+                <input type="checkbox" id="int3" name="interest" value="Gaming">
+                <label for="int3">PC Gaming / Roblox</label><br><br>
+
+                <label for="rating">Rate My Portfolio (Stardrops):</label><br>
+                <select id="rating" name="rating" required>
+                    <option value="">Select Rating</option>
+                    <option value="1">⭐</option>
+                    <option value="2">⭐⭐</option>
+                    <option value="3">⭐⭐⭐</option>
+                    <option value="4">⭐⭐⭐⭐</option>
+                    <option value="5">⭐⭐⭐⭐⭐</option>
+                </select><br><br>
+
+                <label for="feedback">Any Feedback?</label><br>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Write your letter here..." required></textarea>
+                <br>
+
+                <button type="submit">Send Letter</button>
+
+                
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Borg B. Bengco. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>
